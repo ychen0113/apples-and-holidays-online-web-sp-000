@@ -65,7 +65,8 @@ def all_supplies_in_holidays(holiday_hash)
   
   holiday_hash.each do |season|
     season.each do |holiday, supply|
-      print season.to_s.captalize
+      puts season.to_s.captalize
+      puts  
 
 end
 
