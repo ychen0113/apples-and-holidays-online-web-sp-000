@@ -65,8 +65,6 @@ def all_supplies_in_holidays(holiday_hash)
   
   holiday_hash.each do |season|
     puts season.to_s.
-    season.each do |holiday, supply|
-      return holiday.to_s.titlize supply.join.titlize
 end
 end
 end
