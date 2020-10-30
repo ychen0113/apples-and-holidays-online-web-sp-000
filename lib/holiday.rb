@@ -67,7 +67,8 @@ def all_supplies_in_holidays(holiday_hash)
     puts season.to_s.captalize ":"
     season.each do |holiday, supply|
       puts holiday.to_s.titlize":" supply.join.titlize
-
+end
+end
 end
 
 def all_holidays_with_bbq(holiday_hash)
